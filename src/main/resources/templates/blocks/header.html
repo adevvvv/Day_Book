@@ -1,0 +1,28 @@
+<div th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+  <style>
+     span {
+    margin-top: 5%; /* Отступ сверху */
+    margin-left: 5%; /* Отступ сверху */
+   }
+   svg {
+    margin-top: 5%; /* Отступ сверху */
+    margin-left: 5%; /* Отступ сверху */
+   }
+   body {
+   color: black
+   }
+  </style>
+  <div class="d-flex flex-column flex-md-row align-items-center">
+    <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+      <span style="color:#000000" class="fs-4">DAYBOOK</span>
+    </a>
+
+    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      <a style="color:#000000" class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Главная</a>
+      <a style="color:#000000" class="me-3 py-2 link-body-emphasis text-decoration-none" href="/notes">Заметки</a>
+      <a style="color:#000000" class="me-3 py-2 link-body-emphasis text-decoration-none" href="/tasks">Задачи</a>
+      <a style="color:#000000" class="me-3 py-2 link-body-emphasis text-decoration-none" href="/board">Доска</a>
+      <a style="color:#000000" class="me-3 py-2 link-body-emphasis text-decoration-none" href="/calendar">Календарь</a>
+    </nav>
+  </div>
+</div>
